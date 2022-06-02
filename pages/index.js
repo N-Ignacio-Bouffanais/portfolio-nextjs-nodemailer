@@ -1,9 +1,12 @@
-import Layout from '../components/Layout';
+import Container from '../components/Container';
+import About from '../components/about';
 
-const Index = () => (
-    <Layout>
-        <h1>Hello World</h1>
-    </Layout>
-)
+const Index = () => {
+    return (
+      <Container>
+        <About/>
+      </Container>
+    );
+}
 
 export default Index;

@@ -1,7 +1,7 @@
 import Navigation from './navbar';
 
 const Container = (props) => (
-    <div className='container'>
+    <div className="container">
         <Navigation/>
         <div>
             {props.children}

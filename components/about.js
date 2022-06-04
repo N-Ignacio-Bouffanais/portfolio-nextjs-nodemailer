@@ -3,10 +3,10 @@ import profilePic from "../static/me.jpg";
 
 const About = () => {
     return (
-      <section id="primera_section" class="about">
+      <section id="primera_section" className="about">
         <h1>Acerca de mi</h1>
-        <div class="about-main">
-          <div class="about-info">
+        <div className="about-main">
+          <div className="about-info">
             <p>
               Mi nombre es <span>Nicolás Bouffanais</span>, tengo 22 años, soy
               desarrollador de software e ingeniero en Automatización y
@@ -18,7 +18,7 @@ const About = () => {
               Ciencia de datos.
             </p>
             <p>Algunas de las tecnologias con las que he trabajado son:</p>
-            <ul class="lista-habilidades">
+            <ul className="lista-habilidades">
               <li>JavaScript</li>
               <li>CSS</li>
               <li>HTML</li>
@@ -31,7 +31,7 @@ const About = () => {
               <li>Python</li>
             </ul>
           </div>
-          <div class="about-image">
+          <div className="about-image">
             <Image src={profilePic} alt="Foto de perfil" />
           </div>
         </div>

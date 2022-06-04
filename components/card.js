@@ -12,7 +12,7 @@ const Card = () => {
             Este es un clon de la pagina de busqueda de Google, hecho con Html 5
             y CSS.
           </p>
-          <Link href="/">
+          <Link href="https://github.com/N-Ignacio-Bouffanais/Google-clone">
             <a>
               Ver mas<i className="fa-solid fa-angles-right"></i>
             </a>

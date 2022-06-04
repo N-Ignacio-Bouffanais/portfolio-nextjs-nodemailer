@@ -36,7 +36,7 @@ const Contact = () =>{
             </form>
           </div>
           <div className="contact-info">
-            <h2>Más Formación</h2>
+            <h2>Más información</h2>
             <ul>
               <li>
                 <i className="fa-solid fa-location-dot">

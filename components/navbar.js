@@ -25,8 +25,10 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link href="" target="_blank">
-            <a className="nav-button">Descargar CV</a>
+          <Link href="../static/Profile.pdf">
+            <a className="nav-button" target="_blank">
+              Descargar CV
+            </a>
           </Link>
         </li>
       </ol>

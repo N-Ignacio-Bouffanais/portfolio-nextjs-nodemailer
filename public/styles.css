@@ -2,6 +2,7 @@
   --color: aqua;
   --color-bg:#1d1d1d;
   --color-bg2:#1bb09b;
+  --color-bg3:#0d7265;
   --navbar-height: 7.7rem;
   --navbar-bg:#181717;
 }
@@ -100,7 +101,7 @@ header ul,ol{
 /*Main*/
 /*Section info*/
 .about{
-  padding: 2rem 7vw 0 6vw;
+  padding: 2rem 7vw 5rem 6vw;
   margin: 0 auto;
   min-height: 60rem;
 }
@@ -150,7 +151,7 @@ header ul,ol{
 
 /*Section proyectos*/
 .proyectos{
-  padding: 5rem 5vw;
+  padding: 2rem 7vw 5rem 6vw;
   margin: 0 auto;
   background: #1bb09b;
 }
@@ -197,7 +198,7 @@ header ul,ol{
 
 /*Seccion de Contacto*/
 .contacto{
-  padding: 5rem 5vw;
+  padding: 2rem 7vw 5rem 6vw;
   margin: 0 auto;
 }
 .contacto h1{
@@ -211,9 +212,6 @@ header ul,ol{
   flex-wrap: wrap;
   margin: 2rem auto;
 }
-.contacto .contact-container{
-  border-radius: 0.5rem;
-}
 .contact-container ul,ol{
   list-style: none;
 }
@@ -221,9 +219,11 @@ header ul,ol{
   padding: 1rem;
 }
 .contact-container .contact-form{
-  flex-grow: 99;
+  flex-grow: 9;
+  flex-basis: 55rem;
   background: #222222;
   padding: 3rem;
+  border-radius: 1rem;
 }
 
 .contact-form form {
@@ -247,7 +247,7 @@ header ul,ol{
   outline: none;
   color: #fff;
   background: none;
-  border-bottom: 0.1rem solid #d63031;
+  border-bottom: 0.1rem solid var(--color-bg2);
 }
 
 .contact-form form button{
@@ -255,34 +255,15 @@ header ul,ol{
   border: none;
   color: #fff;
   width: 100%;
-  background: #b70e21;
+  background: var(--color-bg2);
   text-transform: uppercase;
 }
 .contact-form form button:hover,
 .contact-form form button:focus{
-  background: #d63031;
+  background: var(--color-bg3);
   cursor: pointer;
-  transition: background-color 1s ease-out;
+  transition: background-color 0.3s ease-out;
   outline: none;
-}
-
-.contact-container .contact-info{
-  background: var(--color-bg2);
-  width: 100%;
-  flex-basis: 35rem;
-  flex-grow: 99;
-  padding: 2rem;
-  color: #000;
-}
-
-.contact-info h2,
-.contact-info p,
-.contact-info ul{
-  text-align: center;
-  margin: 0 0 1rem 0;
-}
-.contact-info ul li {
-  padding: 0.6rem;
 }
 
 

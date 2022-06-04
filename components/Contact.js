@@ -35,31 +35,6 @@ const Contact = () =>{
               </p>
             </form>
           </div>
-          <div className="contact-info">
-            <h2>Más información</h2>
-            <ul>
-              <li>
-                <i className="fa-solid fa-location-dot">
-                  <span> Santiago de Chile</span>
-                </i>
-              </li>
-              <li>
-                <i className="fa-brands fa-twitter">
-                  <span> @N_Bouffanais</span>
-                </i>
-              </li>
-              <li>
-                <i className="fa-solid fa-envelope">
-                  <span> nicolas.bouffanais.1999@gmail.com</span>
-                </i>
-              </li>
-            </ul>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
-              nihil laudantium, fuga ipsa blanditiis eius quod facere quibusdam.
-              Quia, deleniti!
-            </p>
-          </div>
         </div>
       </section>
     );

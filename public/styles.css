@@ -44,7 +44,7 @@ header ul,ol{
   align-items: center;
   height: var(--navbar-height);
   background: var(--navbar-bg);
-  padding: 0 6vw;
+  padding: 0 7vw;
   margin: 0 auto;
 }
 .nav-main ol{
@@ -101,7 +101,7 @@ header ul,ol{
 /*Main*/
 /*Section info*/
 .about{
-  padding: 2rem 7vw 5rem 6vw;
+  padding: 2rem 8vw 5rem 7vw;
   margin: 0 auto;
   min-height: 60rem;
 }
@@ -151,7 +151,7 @@ header ul,ol{
 
 /*Section proyectos*/
 .proyectos{
-  padding: 2rem 7vw 5rem 6vw;
+  padding: 2rem 8vw 5rem 7vw;
   margin: 0 auto;
   background: #1bb09b;
 }
@@ -173,9 +173,17 @@ header ul,ol{
   background: var(--color-bg);
   border-radius: 0.4rem;
 }
+.proyect-image-container{
+  flex-basis: 30rem;
+  max-width: 60rem;
+  max-height: 30rem;
+}
+
 .card-container img{
   border-radius: 0.4rem 0.4rem 0 0;
   background-size: contain;
+  width: 100%;
+  height: 100%;
 }
 .card-body{
   padding: 0.6rem;
@@ -198,7 +206,7 @@ header ul,ol{
 
 /*Seccion de Contacto*/
 .contacto{
-  padding: 2rem 7vw 5rem 6vw;
+  padding: 2rem 8vw 5rem 7vw;
   margin: 0 auto;
 }
 .contacto h1{
@@ -219,16 +227,15 @@ header ul,ol{
   padding: 1rem;
 }
 .contact-container .contact-form{
-  flex-grow: 9;
-  flex-basis: 55rem;
   background: #222222;
-  padding: 3rem;
+  padding: 3.2rem 4rem;
   border-radius: 1rem;
 }
 
 .contact-form form {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
 }
 .contact-form form .block{
   grid-column: 1 / 3;
@@ -253,7 +260,7 @@ header ul,ol{
 .contact-form form button{
   padding: 1rem;
   border: none;
-  color: #fff;
+  color: #000;
   width: 100%;
   background: var(--color-bg2);
   text-transform: uppercase;
@@ -266,8 +273,36 @@ header ul,ol{
   outline: none;
 }
 
+/*Footer*/
+footer{
+  padding: 2rem 8vw 0 7vw;
+  margin: 0 auto;
+  background: var(--navbar-bg);
+  justify-content: center;
+}
+footer ul,ol{
+  list-style: none;
+}
+.footer-container{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container ul{
+  display: flex;
+  justify-content: center;
+}
+.footer-container ul li{
+  padding: 1rem 2rem 2rem 2rem;
+}
+.icons-footer{
+  font-size: 4rem;
+}
+.footer-text{
+  padding: 1rem 2rem 4rem 2rem;
+}
 
-/*media querie*/
+/*Media querie*/
 @media (max-width:768px) {
   .hamburger{
     display: block;

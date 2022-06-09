@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profilePic from "../static/me.jpg";
+import profilePic from "../static/me.jpeg";
 
 const About = () => {
     return (

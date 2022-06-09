@@ -1,4 +1,5 @@
 import Navigation from './navbar';
+import Footer from './footer';
 
 const Container = (props) => (
     <div className="container">
@@ -6,6 +7,7 @@ const Container = (props) => (
         <div>
             {props.children}
         </div>
+        <Footer/>
     </div>
 )
 

@@ -34,7 +34,7 @@ const Footer = () => {
                   target="_blank"
                   title="Ver Perfil de Instagram"
                 >
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </Link>
             </li>

@@ -12,7 +12,7 @@ const Footer = () => {
                   target="_blank"
                   title="Ver Perfil de Github"
                 >
-                  <i class="fa-brands fa-github"></i>
+                  <i className="fa-brands fa-github"></i>
                 </a>
               </Link>
             </li>

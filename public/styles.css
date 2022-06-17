@@ -216,8 +216,6 @@ header ul,ol{
   text-align: center;
 }
 .contact-container{
-  display: flex;
-  flex-wrap: wrap;
   margin: 2rem auto;
 }
 .contact-container ul,ol{
@@ -235,7 +233,7 @@ header ul,ol{
 .contact-form form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 4rem;
+  column-gap: 3.2rem;
 }
 .contact-form form .block{
   grid-column: 1 / 3;

@@ -206,13 +206,13 @@ header ul,ol{
 
 /*Seccion de Contacto*/
 .contacto{
-  padding: 2rem 8vw 5rem 7vw;
+  padding: 2rem 13vw 5.5rem 12vw;
   margin: 0 auto;
 }
 .contacto h1{
   font-size: 4rem;
   font-weight: 800;
-  margin: 2.3rem 0;
+  margin: 2.6rem 0;
   text-align: center;
 }
 .contact-container{

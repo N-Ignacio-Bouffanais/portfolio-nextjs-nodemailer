@@ -5,7 +5,7 @@ const Projects = () =>{
       <section id="segunda_section" className="proyectos">
         <h1>Mis proyectos</h1>
         <div className="proyectos-main">
-          <Card />
+          <Card title="Clon de Google" url="https://github.com/N-Ignacio-Bouffanais/Google-clone"/>
           <Card />
           <Card />
           <Card />

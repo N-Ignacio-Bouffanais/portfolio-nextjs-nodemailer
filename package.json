@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build":"next build",
-    "start":"next start"
+    "build": "next build",
+    "start": "next start"
   },
   "author": "Nicolas Bouffanais <nicolas.bouffanais.1999@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "next": "^12.1.6",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "dotenv": "16.0.1",
+    "express": "4.18.1",
+    "next": "12.1.6",
+    "nodemailer": "6.7.7",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
   }
 }

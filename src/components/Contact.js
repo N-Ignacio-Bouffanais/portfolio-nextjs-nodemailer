@@ -5,7 +5,7 @@ const Contact = () =>{
         <h1>Contáctame</h1>
         <div className="contact-container">
           <div className="contact-form">
-            <form action="">
+            <form action="http://localhost:4000/send-email" method="POST">
               <p>
                 <label htmlFor="nombre_completo">Nombre completo</label>
                 <input
